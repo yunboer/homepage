@@ -1,0 +1,21 @@
+/* 导航栏的基本样式 */
+.navbar {
+    background-color: #333; /* 设置导航栏背景颜色 */
+    overflow: hidden; /* 确保所有导航项都在导航栏内 */
+}
+
+/* 导航项的样式 */
+.navbar a {
+    float: left; /* 导航项水平排列 */
+    display: block;
+    color: white; /* 文字颜色 */
+    text-align: center; /* 文字居中 */
+    padding: 14px 20px; /* 内边距 */
+    text-decoration: none; /* 去掉下划线 */
+}
+
+/* 鼠标悬浮在导航项上时的样式 */
+.navbar a:hover {
+    background-color: #ddd; /* 背景颜色变化 */
+    color: black; /* 文字颜色变化 */
+}
